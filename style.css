@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(245,138,22,0.9668242296918768) 4%, rgba(241,186,19,0.927608543417367) 85%);
+    padding: 12px 30px;
+    align-items: center;
+}
+header>ul {
+    display: flex;
+    list-style-type: none;
+    color: rgb(102, 100, 100);
+    gap: 2em;
+}
+header>ul>li>a {
+    font-family: 'Poppins', sans-serif;
+    font-size:x-large;
+    text-decoration: none;
+    transition: all .2s;
+}
+header>ul>li:first-child a {
+   color: rgb(102, 100, 100);
+}
+header>ul>li:nth-child(2) a {
+   color: rgb(102, 100, 100);
+}
+header>ul>li:nth-child(3) a {
+   color: rgb(102, 100, 100);
+}
+header>ul>li:nth-child(4) a {
+   color: rgb(102, 100, 100);
+}
+header>ul>li:last-child a {
+    color: rgb(232, 87, 34);
+}
+header>ul>li>a:hover{
+   color: white;
+}
+footer {
+    background: linear-gradient(180deg, rgba(245,138,22,0.9668242296918768) 4%, rgba(241,186,19,0.927608543417367) 85%);
+    padding: 12px 30px;
+    align-items: center;
+}
+footer>ul>li>a {
+   font-family: 'Poppins', sans-serif;
+   font-size:larger;
+   text-decoration: none;
+   transition: all .2s;
+   }
+
+footer>ul>li:first-child a{
+   color: rgb(102, 100, 100);
+}
+footer>ul>li:nth-child(2) a{
+   color: rgb(102, 100, 100);
+}
+footer>ul>li:nth-child(3) a{
+   color: rgb(102, 100, 100);
+}
+footer>ul>li:last-child a{
+   color: rgb(102, 100, 100);
+}
+
+
+/* Clases propias */
+
+.bannerPrincipal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    background: url(./Src/Imagenes/Banner.jpg), rgba(0, 0, 0, 0.317);
+    background-blend-mode:color;
+    height: 50vh;
+    padding: 15%;
+}
+
+.formulario {
+   padding: 20px;
+}
+
+/* Cards */
+
+.titleCards {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+ /* Publicidad*/
+
+ .pub {
+    margin: 35px 0;
+    display: flex;
+    height: 45vh;
+    gap: 2px;
+    color: white;
+ }
+
+ .pub .image {
+    background-image: url(./Src/Imagenes/Publicidad.jpg);
+    height: 100%;
+    width: 100%;
+ }
+
+ .pub .text {
+    background-color:rgba(123, 123, 187, 0.753);
+    padding: 15px;
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 23px;
+ }
+
+ .pub>.text>button {
+    margin: 15px 0;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all .2s;
+ }
